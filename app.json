@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ananthus97.realestate"
     },
     "web": {
       "bundler": "metro",
@@ -30,7 +31,7 @@
           "image": "./assets/images/splash-icon.png",
           "resizeMode": "cover",
           "backgroundColor": "#ffffff",
-          "enableFullScreenImage_legacy":true
+          "enableFullScreenImage_legacy": true
         }
       ],
       [
@@ -49,6 +50,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "09de5a9b-4a1d-4edd-b45a-4328f94b5404"
+      }
     }
   }
 }
